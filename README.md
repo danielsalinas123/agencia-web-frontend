@@ -2,12 +2,19 @@
 
 Maquetación frontend de una agencia de desarrollo web.
 
+---
+
+## 🌐 Demo
+https://danielsalinas123.github.io/agencia-web-frontend/
+
+---
+
 ## 🧩 Descripción
 
 Este proyecto consiste en el diseño y maquetación frontend de un sitio web corporativo para una agencia de desarrollo web ficticia.  
 El objetivo es construir una interfaz moderna, clara y responsive, aplicando buenas prácticas de HTML, CSS y JavaScript.
 
-El proyecto está orientado principalmente a **frontend y diseño**, sin lógica de backend.
+El proyecto está orientado principalmente al **frontend y al diseño**, sin lógica de backend.
 
 ---
 
@@ -26,7 +33,7 @@ El proyecto está orientado principalmente a **frontend y diseño**, sin lógica
 - CSS3
 - JavaScript (Vanilla)
 
-*(Sin frameworks ni librerías externas, salvo que se indique lo contrario más adelante)*
+> El proyecto se desarrolla sin frameworks para reforzar los fundamentos del frontend.
 
 ---
 
@@ -36,10 +43,10 @@ El proyecto está orientado principalmente a **frontend y diseño**, sin lógica
 agencia-web-frontend/
 │
 ├── assets/
-│ ├── css/
-│ ├── js/
-│ └── img/
-│ └── fonts/
+│   ├── css/
+│   ├── js/
+│   ├── img/
+│   └── fonts/
 │
 ├── index.html
 └── README.md
@@ -73,4 +80,4 @@ No representa una agencia real.
 
 ## 📄 Licencia
 
-Uso libre con fines educativos.
+Este proyecto se publica bajo la licencia MIT y puede usarse con fines educativos.
