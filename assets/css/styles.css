@@ -12,6 +12,9 @@
     --color-title:#292930;
     --color-bg-services:#F8F8F8;
     --color-bg-projects:#ECF2F6;
+    --color-bg-dark:#27272E;
+    --color-text-description:#99A1AA;
+    --color-hover-dark:#303035;
 }
 
 /* Estilos generales */
@@ -350,7 +353,8 @@ body{
 }
 
 .services__subtitle,
-.projects__subtitle{
+.projects__subtitle,
+.stats__subtitle{
     color: var(--color-subtitle);
     font-size: 2rem;
     font-weight: 500;
@@ -358,7 +362,8 @@ body{
 }
 
 .services__title,
-.projects__title{
+.projects__title,
+.stats__title{
     color: var(--color-title);
     font-size: 6.7rem;
     font-weight: 500;
@@ -580,4 +585,75 @@ body{
 .project-shapes--shape3{
     top: 38%;
     left: 1%;
+}
+
+/* ESTILOS PARA ESTADÍSTICAS */
+.layout__stats{
+    background-color: var(--color-bg-dark);
+    padding: 14rem 11rem;
+}
+
+.stats__container{
+    /* max-width: var(--mx-width); */
+    margin: 0 auto;
+}
+
+.stats__header{
+    text-align: center;
+}
+
+.stats__title{
+    color: var(--color-secondary);
+    font-size: 6.4rem;
+    margin-bottom: 3rem;
+}
+
+.stats__description{
+    font-size: 2rem;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    color: var(--color-text-description);
+}
+
+.stats__progress{
+    display: flex;
+    gap: 3rem;
+}
+
+.stats__stat{
+    flex-basis: 25%;
+    text-align: center;
+    padding: 7rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+}
+
+.stats__stat:hover{
+    background: linear-gradient(var(--color-bg-dark),var(--color-hover-dark));
+    border: 1px solid var(--color-hover-dark);
+}
+
+.stat__icon{
+    margin-bottom: 2rem;
+}
+
+.stat__icon > img{
+    margin: 0 auto;
+}
+
+.stat__count{
+    display: inline-block;
+    font-size: 6.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+}
+
+.stat__title{
+    color: var(--color-secondary);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
 }
