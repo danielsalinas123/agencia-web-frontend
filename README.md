@@ -11,19 +11,21 @@ https://danielsalinas123.github.io/agencia-web-frontend/
 
 ## 🧩 Descripción
 
-Este proyecto consiste en el diseño y maquetación frontend de un sitio web corporativo para una agencia de desarrollo web ficticia.  
-El objetivo es construir una interfaz moderna, clara y responsive, aplicando buenas prácticas de HTML, CSS y JavaScript.
+Este proyecto consiste en el diseño y maquetación frontend de un sitio web corporativo para una **agencia de desarrollo web ficticia**.
 
-El proyecto está orientado principalmente al **frontend y al diseño**, sin lógica de backend.
+El objetivo es construir una **landing page moderna, clara y profesional**, aplicando buenas prácticas de HTML, CSS y JavaScript, con foco en estructura, diseño y experiencia visual.
+
+El proyecto está orientado exclusivamente al **frontend**, sin lógica de backend.
 
 ---
 
 ## 🎯 Objetivos del proyecto
 
 - Crear una landing page profesional para una agencia digital
-- Aplicar principios de diseño responsive
+- Aplicar buenas prácticas de maquetación frontend
 - Mantener una estructura de código clara y escalable
-- Practicar buenas prácticas de maquetación frontend
+- Practicar diseño responsive y adaptación a distintos dispositivos
+- Servir como proyecto de práctica y portafolio frontend
 
 ---
 
@@ -33,7 +35,7 @@ El proyecto está orientado principalmente al **frontend y al diseño**, sin ló
 - CSS3
 - JavaScript (Vanilla)
 
-> El proyecto se desarrolla sin frameworks para reforzar los fundamentos del frontend.
+*(Sin frameworks ni librerías externas)*
 
 ---
 
@@ -43,10 +45,10 @@ El proyecto está orientado principalmente al **frontend y al diseño**, sin ló
 agencia-web-frontend/
 │
 ├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── img/
-│   └── fonts/
+│ ├── css/
+│ ├── js/
+│ ├── img/
+│ └── fonts/
 │
 ├── index.html
 └── README.md
@@ -54,20 +56,38 @@ agencia-web-frontend/
 
 ---
 
+## 🖥️ Versión actual
+
+### ✅ Versión 1.0
+
+- Maquetación **completa para escritorio**
+- Estructura final de todas las secciones:
+  - Menú de navegación
+  - Banner / Hero
+  - Servicios
+  - Proyectos
+  - Estadísticas
+  - Clientes
+  - Reseñas
+  - Noticias
+  - Contacto
+- Diseño visual terminado para resoluciones desktop
+
+---
+
 ## 📱 Diseño responsive
 
-El sitio está pensado para adaptarse a distintos tamaños de pantalla:
-- Desktop
-- Tablet
-- Mobile
+🚧 **En proceso**
+
+El diseño responsive para tablet y dispositivos móviles se encuentra actualmente en desarrollo.  
+En próximas versiones se realizarán los ajustes necesarios para garantizar una experiencia óptima en pantallas pequeñas.
 
 ---
 
 ## 🚀 Estado del proyecto
 
-🟡 En desarrollo
-
-Este proyecto se encuentra en evolución y puede recibir mejoras visuales y estructurales.
+🟡 En desarrollo  
+🟢 **Versión desktop finalizada**
 
 ---
 
@@ -80,4 +100,5 @@ No representa una agencia real.
 
 ## 📄 Licencia
 
-Este proyecto se publica bajo la licencia MIT y puede usarse con fines educativos.
+Este proyecto se publica bajo la licencia **MIT** y puede utilizarse con fines educativos.
+
