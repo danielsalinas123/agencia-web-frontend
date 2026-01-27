@@ -1,6 +1,6 @@
 /* Variables */
 :root{
-    --mx-width:1200px;
+    --mx-width:100%;
 
     --color-text-body:#525260;
     --color-primary:#5956E9;
@@ -343,7 +343,7 @@ body{
 }
 
 .services__grid{
-    /* max-width: var(--mx-width); */
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -355,7 +355,8 @@ body{
 .services__subtitle,
 .projects__subtitle,
 .stats__subtitle,
-.reviews__subtitle{
+.reviews__subtitle,
+.clients__subtitle{
     color: var(--color-subtitle);
     font-size: 2rem;
     font-weight: 500;
@@ -490,7 +491,7 @@ body{
 }
 
 .projects__grid{
-    /* max-width: var(--mx-width); */
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -589,14 +590,16 @@ body{
     left: 1%;
 }
 
-/* ESTILOS PARA ESTADÍSTICAS */
-.layout__stats{
+/* ESTILOS PARA ESTADÍSTICAS Y MEJORES CLIENTES*/
+.layout__stats,
+.layout__clients{
     background-color: var(--color-bg-dark);
-    padding: 14rem 11rem;
+    padding: 14rem 10rem 10rem;
 }
 
-.stats__container{
-    /* max-width: var(--mx-width); */
+.stats__container,
+.clients__container{
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -604,13 +607,15 @@ body{
     text-align: center;
 }
 
-.stats__title{
+.stats__title,
+.clients__title{
     color: var(--color-secondary);
     font-size: 6.4rem;
     margin-bottom: 3rem;
 }
 
-.stats__description{
+.stats__description,
+.clients__description{
     font-size: 2rem;
     width: 70%;
     margin: 0 auto;
@@ -668,7 +673,7 @@ body{
 }
 
 .reviews__grid{
-    /* max-width: var(--mx-width); */
+    max-width: var(--mx-width);
     margin: 0 auto;
 }
 
@@ -741,4 +746,51 @@ body{
     pointer-events: none;
     right: 23%;
     top: 11%;
+}
+
+/* ESTILOS EXCLUSIVOS MEJORES CLIENTES */
+.layout__clients{
+    position: relative;
+    z-index: 1;
+}
+
+.clients__title{
+    width: 50%;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.clients__description{
+    width: 40%;
+    margin: 0;
+}
+
+.clients__logos{
+    margin-top: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.clients__item{
+    flex-basis: calc(25% - 3rem*3/4);
+}
+
+.clients__img{
+    filter: grayscale(100%);
+    opacity: 0.3;
+    transition: all 300ms ease-in-out;
+}
+
+.clients__item:hover > .clients__img{
+    opacity: 1;
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.clients-shapes__item{
+    position: absolute;
+    z-index: -1;
+    top: 10%;
+    right: 0%;
 }
