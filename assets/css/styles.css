@@ -34,6 +34,7 @@ body{
 .layout{
     max-width: 1320px;
     margin: 0 auto;
+    padding-bottom: 3rem;
 }
 
 /* ESTILOS MENU NAVEGACIÓN Y CABECERA DE LA WEB */
@@ -176,7 +177,7 @@ body{
 
 .banner__content{
     display: inline-block;
-    width: 50%;
+    width: 60%;
     padding: 0 1.5rem;
 }
 
