@@ -1166,7 +1166,7 @@ body{
     background-color: var(--color-banner);
 }
 
-.footer__right{
+.footer__fright{
     flex-basis: 50%;
     margin-bottom: 8rem;
     display: flex;
