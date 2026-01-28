@@ -50,6 +50,25 @@
         padding: 10rem 4rem 7rem;
     }
 
+    .contact__thumb--chat{
+        width: 90%;
+    }
+
+    .contact__thumb--laptop{
+         width: 40%;
+        left: -6%;
+    }
+
+    .contact__thumb--mobile{
+         width: 40%;
+        right: 0%;
+    }
+
+    .contact__img{
+        width: 70%;
+        margin: 0 auto;
+    }
+
     .footer__right{
         gap: 1rem;
     }
@@ -70,6 +89,10 @@
 
     .navbar__nav{
         display: none;
+    }
+
+    .navbar__mobile-btn{
+        display: block;
     }
 
     .banner__content{
@@ -196,25 +219,6 @@
         padding: 1.8rem 3.5rem;
     }
 
-    .contact__thumb--chat{
-        width: 90%;
-    }
-
-    .contact__thumb--laptop{
-         width: 40%;
-        left: -6%;
-    }
-
-    .contact__thumb--mobile{
-         width: 40%;
-        right: 0%;
-    }
-
-    .contact__img{
-        width: 70%;
-        margin: 0 auto;
-    }
-
     .social__img{
         font-size: 2rem;
     }
@@ -339,5 +343,29 @@
     .fleft__container{
         margin-right: 0;
         padding-right: 0;
+    }
+}
+
+@media (max-width:640px)
+{
+    .layout__services,
+    .layout__proyects,
+    .layout__stats,
+    .layout__reviews,
+    .layout__clients,
+    .layout__news,
+    .layout__contact,
+    .layout__footer{
+        padding: 3rem;
+        padding-right: 3rem;
+    }
+
+    .projects__categories{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__widget{
+        flex-basis: 33%;
     }
 }
