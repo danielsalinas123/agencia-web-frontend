@@ -28,7 +28,7 @@ body{
     font-size: 1.6rem;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
-    color: var(---color-text-body);
+    color: var(--color-text-body);
 }
 
 .layout{
@@ -1383,4 +1383,35 @@ body{
     text-transform: capitalize;
     font-weight: 500;
     color: var(--color-text-body);
+}
+
+/* ESTILOS BOTÓN MODO OSCURO */
+.switcher{
+    position: fixed;
+    top: 20rem;
+    left: 0;
+    background-color: var(--color-primary);
+    border-radius: 0 3rem 3rem 0;
+    padding: 1rem;
+    z-index: 5;
+}
+
+.switcher__btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.switcher__icon-light,
+.switcher__icon-dark{
+    display: inline-block;
+    color: var(--color-secondary);
+    font-size: 1.8rem;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+}
+
+.switcher__icon-dark{
+    display: none;
 }
