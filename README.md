@@ -56,9 +56,9 @@ agencia-web-frontend/
 
 ---
 
-## 🚀 Versión 2.0
+## 🚀 Versión 2.1
 
-La versión 2 del proyecto incorpora mejoras importantes a nivel de diseño y funcionalidad, con foco en la experiencia de usuario y la adaptabilidad a distintos dispositivos.
+La versión 2.1 del proyecto amplía las mejoras introducidas en la versión 2.0, incorporando **modo oscuro** y **mejoras de accesibilidad**, con el objetivo de ofrecer una experiencia más cómoda, inclusiva y adaptable para distintos usuarios y contextos de uso.
 
 ---
 
@@ -66,6 +66,8 @@ La versión 2 del proyecto incorpora mejoras importantes a nivel de diseño y fu
 
 - 📱 **Diseño completamente responsive**, adaptado a dispositivos móviles, tabletas y pantallas de escritorio.
 - 🧭 **Menú de navegación interactivo implementado con JavaScript**, optimizado para pantallas pequeñas.
+- 🌙 **Modo oscuro**, pensado para mejorar la comodidad visual en entornos con poca luz.
+- ♿ **Mejoras de accesibilidad**, utilizando unidades relativas (`rem`) y ajustes visuales para una mejor legibilidad.
 - 🎨 Ajustes visuales y mejoras de layout para una experiencia más consistente.
 - 🛠️ Limpieza y optimización general del código.
 
@@ -84,10 +86,23 @@ La estructura, tipografías y navegación se adaptan automáticamente según el 
 
 ---
 
+## ♿ Accesibilidad
+
+Se aplicaron mejoras de accesibilidad para facilitar el uso del sitio a distintos tipos de usuarios, incluyendo:
+
+- Uso de unidades relativas (`rem`) para tipografías y espaciados.
+- Mejor legibilidad y escalado del contenido.
+- Ajustes de contraste y estilos compatibles con el modo oscuro.
+- Base preparada para una navegación más accesible y adaptable.
+
+---
+
 ## 🚀 Estado del proyecto
 
-🟡 En desarrollo  
-🟢 **Versión responsive finalizada**
+🟢 **Proyecto finalizado**
+
+La maquetación frontend se encuentra completa.  
+El sitio es responsive, incluye modo oscuro y mejoras de accesibilidad, y cumple con los objetivos planteados para este proyecto de práctica y portafolio.
 
 ---
 
