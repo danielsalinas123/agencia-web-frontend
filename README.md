@@ -56,38 +56,38 @@ agencia-web-frontend/
 
 ---
 
-## 🖥️ Versión actual
+## 🚀 Versión 2.0
 
-### ✅ Versión 1.0
+La versión 2 del proyecto incorpora mejoras importantes a nivel de diseño y funcionalidad, con foco en la experiencia de usuario y la adaptabilidad a distintos dispositivos.
 
-- Maquetación **completa para escritorio**
-- Estructura final de todas las secciones:
-  - Menú de navegación
-  - Banner / Hero
-  - Servicios
-  - Proyectos
-  - Estadísticas
-  - Clientes
-  - Reseñas
-  - Noticias
-  - Contacto
-- Diseño visual terminado para resoluciones desktop
+---
+
+### ✨ Novedades
+
+- 📱 **Diseño completamente responsive**, adaptado a dispositivos móviles, tabletas y pantallas de escritorio.
+- 🧭 **Menú de navegación interactivo implementado con JavaScript**, optimizado para pantallas pequeñas.
+- 🎨 Ajustes visuales y mejoras de layout para una experiencia más consistente.
+- 🛠️ Limpieza y optimización general del código.
+
+---
+
+## 🧠 Funcionalidad con JavaScript
+
+Se incorporó lógica en JavaScript para mejorar la interacción del usuario, principalmente en el menú de navegación, permitiendo mostrar y ocultar el menú en dispositivos móviles.
 
 ---
 
 ## 📱 Diseño responsive
 
-🚧 **En proceso**
-
-El diseño responsive para tablet y dispositivos móviles se encuentra actualmente en desarrollo.  
-En próximas versiones se realizarán los ajustes necesarios para garantizar una experiencia óptima en pantallas pequeñas.
+El sitio está optimizado para distintas resoluciones de pantalla.  
+La estructura, tipografías y navegación se adaptan automáticamente según el dispositivo, garantizando una experiencia fluida tanto en móvil como en escritorio.
 
 ---
 
 ## 🚀 Estado del proyecto
 
 🟡 En desarrollo  
-🟢 **Versión desktop finalizada**
+🟢 **Versión responsive finalizada**
 
 ---
 
