@@ -1,7 +1,7 @@
 @media (max-width:1200px)
 {
     .layout{
-        max-width: 1000px;
+        max-width: 100rem;
     }
 
     .nav__list{
@@ -77,14 +77,14 @@
 @media (max-width:1000px)
 {
     .layout{
-        max-width: auto;
+        max-width: 96rem;
     }
 
     .reviews__grid,
     .clients__container,
     .news__container,
     .footer__container{
-        max-width: 72rem;
+        max-width: 80rem;
     }
 
     .navbar__nav{
@@ -95,8 +95,13 @@
         display: block;
     }
 
+    .layout__banner{
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+    }
+
     .banner__content{
-        width: 50%;
+        width: 60%;
     }
 
     .banner__title{
@@ -112,6 +117,7 @@
     }
 
     .layout__services{
+        margin-top: 3rem;
         padding-bottom: 4rem;
     }
 
@@ -151,6 +157,19 @@
         display: none;
     }
 
+    .categories__item{
+        text-align: center;
+    }
+
+    .project__content{
+        padding: 2rem;
+    }
+
+    .project__title{
+        font-size: 2.7rem;
+        text-align: center;
+    }
+
     .project-shapes--shape2{
         display: none;
     }
@@ -172,11 +191,16 @@
 
     .stats__stat{
         flex-basis: calc(50% - 1.5rem);
+        padding: 2rem 2rem;
     }
 
     .layout__reviews{
         padding-top: 8rem;
         padding-bottom: 5rem;
+    }
+
+    .reviews__header{
+        margin-bottom: 3rem;
     }
 
     .reviews__description,
@@ -189,6 +213,12 @@
         flex-direction: column;
     }
 
+    .reviews__review{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid var(--color-borders);
+    }
+
     .clients__title{
         width: 100%;
         font-size: 5rem;
@@ -196,10 +226,15 @@
 
     .clients__logos{
         flex-wrap: wrap;
+        margin-top: 3rem;
     }
 
     .clients__item{
-        flex-basis: calc(50% - 3rem);
+        flex-basis: calc(50% - 3rem/2);
+    }
+
+    .clients__img{
+        margin: 0 auto;
     }
 
     .layout__news{
@@ -233,10 +268,13 @@
 
     .fleft__container{
         border: none;
+        padding-right: 0;
+        margin-bottom: 2rem;
     }
 
     .footer__fright{
         width: 100%;
+        margin-bottom: 4rem;
     }
 
     .footer__bottom{
@@ -255,16 +293,16 @@
 
 @media (max-width:770px)
 {
+    .layout{
+        max-width: 73rem;
+    }
+
     .layout__banner{
         padding: 8rem 3rem;
     }
 
     .banner__title{
         font-size: 4rem;
-    }
-
-    .layout__services{
-        margin-top: 7rem;
     }
 
     .reviews__grid,
@@ -274,7 +312,7 @@
         max-width: 54rem;
     }
 
-     .services__subtitle,
+    .services__subtitle,
     .projects__subtitle,
     .stats__subtitle,
     .reviews__subtitle,
@@ -288,6 +326,7 @@
     .projects__title,
     .stats__title,
     .reviews__title,
+    .clients__title,
     .news__title,
     .contact__title{
         font-size: 5rem;
@@ -348,6 +387,14 @@
 
 @media (max-width:640px)
 {
+    .menu__navbar--fixed{
+        padding: 1.5rem 2rem;
+    }
+
+    .layout{
+        max-width: 600rem;
+    }
+
     .layout__services,
     .layout__proyects,
     .layout__stats,
@@ -360,12 +407,85 @@
         padding-right: 3rem;
     }
 
+    .services__title,
+    .projects__title,
+    .stats__title,
+    .reviews__title,
+    .clients__title,
+    .news__title,
+    .contact__title,
+    .fleft__title{
+        font-size: 4rem;
+    }
+
+    .banner__content{
+        width: 80%;
+    }
+
     .projects__categories{
         flex-wrap: wrap;
         justify-content: space-around;
+        gap: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .review__description{
+        font-size: 2rem;
     }
 
     .footer__widget{
         flex-basis: 33%;
+    }
+}
+
+@media (max-width:480px)
+{
+    .banner__content{
+        width: 100%;
+    }
+
+    .services__title,
+    .projects__title,
+    .stats__title,
+    .reviews__title,
+    .clients__title,
+    .news__title,
+    .contact__title,
+    .fleft__title {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .projects__categories{
+        justify-content: normal;
+    }
+
+    .categories__item{
+        flex-basis: calc(50% - 3rem/2);
+    }
+
+    .stats__progress{
+        flex-direction: column;
+    }
+
+    .news__header{
+        margin-bottom: 3rem;
+    }
+
+    .fleft__mail-icon{
+        margin: 0;
+    }
+
+    .fleft__btn{
+        padding: 1.4rem 2rem;
+    }
+
+    .footer__fright{
+        gap: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .widget__title{
+        margin-bottom: 1rem;
     }
 }
