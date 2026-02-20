@@ -20,12 +20,28 @@ body{
     background-color: #212121;
 }
 
+.menu__navbar{
+    background-color: var(--color-secondary);
+    border-radius: 5px;
+}
+
+.mobile-btn__wrap{
+    background-color: var(--color-bg-projects);
+}
+
+.menu-mobile__close,
+.menu-mobile__link,
+.submenu-mobile__link,
+.nav__title{
+     color: var(--color-bg-services);
+}
+
 .nav__title:hover{
-    color: var(--color-text-body);
+    color: black;
 }
 
 .nav__title::before{
-    background-color: var(--color-secondary);
+    background-color: black;
 }
 
 .nav__submenu{
@@ -38,10 +54,6 @@ body{
 
 .submenu__title::after{
     background-color: var(--color-secondary);
-}
-
-.menu__navbar--fixed{
-    background-color: var(--color-banner);
 }
 
 .banner__btn{

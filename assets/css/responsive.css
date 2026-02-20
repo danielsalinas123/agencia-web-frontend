@@ -20,6 +20,10 @@
         gap: 3rem;
     }
 
+    .projects__project{
+        flex-basis: calc(50% - 3rem / 2);
+    }
+
     .layout__stats,
     .layout__clients{
         padding: 10rem 7rem;
